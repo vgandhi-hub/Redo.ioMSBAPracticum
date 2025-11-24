@@ -1,0 +1,38 @@
+# Sensitive Data - DO NOT COMMIT
+external_repos/population_metrics/
+external_repos/similarity_scoring/
+
+
+data/*.csv
+data/*.xlsx
+outputs/*.csv
+outputs/*.parquet
+*.csv
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+
+# PyCharm
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Temporary files
+*.log
+*.tmp
